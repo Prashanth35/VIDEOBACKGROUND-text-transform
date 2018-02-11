@@ -1,0 +1,81 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="videobackground2.VIEW" xmlns:html="http://www.w3.org/1999/xhtml" 
+		xmlns:f="sap.f"  xmlns:l="sap.ui.layout">
+		
+		
+	<Page title="Title" class="imppage" >
+		<content>
+		<VBox>
+		<html:video width='100%'   autoplay="autoplay" loop="true" class="video">  
+                        <html:source src='Typing.mp4'></html:source>
+                       
+                       </html:video>
+	
+		<l:BlockLayout>
+			<l:BlockLayoutRow >
+				<l:BlockLayoutCell  >
+				<VBox>
+				<Label text="prashanthui501@gmail.com"  id="idmail"/>
+				<!--  <Text text="S-MAX | TECHNOLOGIES" class="title"/>
+		                        <Text text="learn, practice and get real experience" class="sub"/>
+		<Image src="image/logo3.png" width="50px" height="50px" id="idvideo" class="idvideo"/> -->
+		
+		<!-- <Button text="press" press="onclick"/> -->
+					</VBox>	
+	</l:BlockLayoutCell>
+	</l:BlockLayoutRow>
+	
+	
+	
+
+<!-- 	<l:BlockLayoutRow >
+				<l:BlockLayoutCell titleAlignment="Center" visible="true" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeD">
+				<VBox>
+				 <Text text="S-MAX | TECHNOLOGIES" class="title"/>
+		                        <Text text="learn, practice and get real experience" class="sub"/>
+		<Image src="image/logo3.png" width="50px" height="50px"/>
+					</VBox>	
+	</l:BlockLayoutCell>
+	</l:BlockLayoutRow>
+	
+	
+	
+	<l:BlockLayoutRow >
+				<l:BlockLayoutCell titleAlignment="Center"    visible="true" backgroundColorSet="ColorSet11" backgroundColorShade="ShadeD">
+				<VBox>
+				 <Text text="S-MAX | TECHNOLOGIES" class="title"/>
+		                        <Text text="learn, practice and get real experience" class="sub"/>
+		<Image src="image/logo3.png" width="50px" height="50px"/>
+					</VBox>	
+	</l:BlockLayoutCell>
+	</l:BlockLayoutRow>
+	<l:BlockLayoutRow >
+				<l:BlockLayoutCell titleAlignment="Center" visible="true" backgroundColorSet="ColorSet9" backgroundColorShade="ShadeD">
+				<VBox>
+				 <Text text="S-MAX | TECHNOLOGIES" class="title"/>
+		                        <Text text="learn, practice and get real experience" class="sub"/>
+		<Image src="image/logo3.png" width="50px" height="50px"/>
+					</VBox>	
+	</l:BlockLayoutCell>
+	</l:BlockLayoutRow>
+ -->	
+	
+	</l:BlockLayout>
+		
+		
+		</VBox>
+		
+		
+		
+		 
+		
+		
+		
+		
+		
+		
+
+		</content>
+	</Page>
+	
+</core:View>

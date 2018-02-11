@@ -1,0 +1,50 @@
+.video{
+	position:absolute;
+} 
+
+.title.sapMTextMaxWidth {
+   
+    padding-top: 10%;
+    
+    padding-left: 150px;
+       
+    font-size: 40px;
+    font-weight: bold;
+}
+.sub.sapMTextMaxWidth {
+    
+    padding-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+    .sapMImg{
+	
+	padding-left:350px;
+}
+    
+  .flip{
+     
+      padding:10px;
+      color:black;
+    }  
+    .flip2{
+      
+      padding-left:800px;
+      color:red;
+    }  
+    .flip3{
+      
+      padding-top:400px;
+      color:blue;
+    }  
+     .flip4{
+      
+       padding:400px 50px 50px 800px;
+      color:orange;
+    } 
+    .flip5{
+      
+       padding:200px 500px 300px 400px;;
+      color:yellow;
+    } 
